@@ -1,0 +1,4 @@
+In both questions, we have provided the dataset so just run through the terminal using the command 
+python3 <directory name>/q1.py
+python3 <directory name>/q2.py
+otput_1.txt, output_2.txt,  all images and graphs will be automatically created

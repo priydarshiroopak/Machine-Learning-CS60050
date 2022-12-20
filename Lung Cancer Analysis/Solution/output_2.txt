@@ -1,0 +1,44 @@
+Accuracies of SVM models over different kernels:
+
+	Accuracy of Linear Kernel SVM : 0.83
+	Accuracy of Quadratic Kernel SVM : 0.50
+	Accuracy of Radial Kernel SVM : 0.50
+
+Accuracy of MLPClassifier (single-layer- [16,]) : 0.67
+Accuracy of MLPClassifier (2-layer [256, 16]) : 0.83
+
+Out of the two models, bilayer MLP is selected due to higher accuracy(0.83). 
+
+Accuracies of selected MLP model over learning rates:
+
+	Accuracy with learning rate 0.1 : 0.83
+	Accuracy with learning rate 0.01 : 0.83
+	Accuracy with learning rate 0.001 : 0.83
+	Accuracy with learning rate 0.0001 : 0.83
+	Accuracy with learning rate 1e-05 : 0.33
+
+Out of the models, learning rate of 0.1 is selected due to highest accuracy(0.83). 
+
+
+Iterations of Sequential Forward Selector: 
+
+	1 best features give a score of 0.83
+	2 best features give a score of 0.83
+	3 best features give a score of 1.00
+	4 best features give a score of 1.00
+	5 best features give a score of 1.00
+	6 best features give a score of 1.00
+	7 best features give a score of 1.00
+	8 best features give a score of 1.00
+	9 best features give a score of 1.00
+	10 best features give a score of 1.00
+	11 best features give a score of 1.00
+	12 best features give a score of 1.00
+	13 best features give a score of 1.00
+	14 best features give a score of 1.00
+	15 best features give a score of 1.00
+	16 best features give a score of 1.00
+
+ Selected features:  [16, 38, 8, 1, 9, 22, 20, 2, 10, 5, 4, 7, 11, 13, 3, 14]
+
+Accuracy of the max-voting based ensemble Learner of SVMs (Linear, Quadratic, Radial) and best MLP classifier is 0.50.
